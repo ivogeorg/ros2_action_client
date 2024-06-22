@@ -46,7 +46,7 @@ public:
     }
 
     auto goal_msg = Move::Goal();
-    goal_msg.secs = 5;
+    goal_msg.secs = 7;
 
     RCLCPP_INFO(this->get_logger(), "Sending goal");
 
